@@ -1,0 +1,443 @@
+{
+    "users": [
+        {
+            "fname": "Admin",
+            "lname": "",
+            "email": "admin@gmail.com",
+            "password": "123",
+            "phone": "0123456789",
+            "image": "/images/p5.jpg",
+            "role_id": "2",
+            "address": "123 LA"
+        },
+        {
+            "fname": "John",
+            "lname": "Ryan",
+            "email": "john@gmail.com",
+            "password": "123",
+            "phone": "0123456789",
+            "image": "/images/p5.jpg",
+            "role_id": "1",
+            "address": "456 SF"
+        },
+        {
+            "fname": "Alice",
+            "lname": "Kyte",
+            "email": "alice@gmail.com",
+            "password": "123",
+            "phone": "0123456789",
+            "image": "/images/p5.jpg",
+            "role_id": "1",
+            "address": "2222 Cali"
+        }
+    ],
+
+    "productimages": [
+        {
+            "product_id": 1,
+            "image": "/images/p5.jpg"
+        },
+        {
+            "product_id": 1,
+            "image": "/images/p5.jpg"
+        },
+        {
+            "product_id": 2,
+            "image": "/images/p5.jpg"
+        },
+        {
+            "product_id": 2,
+            "image": "/images/p5.jpg"
+        }
+    ],
+    "roles": [
+        {
+            "id": "1",
+            "name": "Customer",
+            "desc": "..."
+        },
+        {
+            "id": "2",
+            "name": "Admin",
+            "desc": "..."
+        },
+        {
+            "id": "3",
+            "name": "Seller",
+            "desc": "..."
+        }
+    ],
+
+    "reviews": [
+        {
+            "user_id": "1",
+            "product_id": "1",
+            "rating": "4",
+            "comment": "This product is supper cool"
+        },
+
+        {
+            "user_id": "1",
+            "product_id": "2",
+            "rating": "4",
+            "comment": "This product is supper cool"
+        },
+        {
+            "user_id": "2",
+            "product_id": "2",
+            "rating": "4",
+            "comment": "This product is supper cool"
+        }
+    ],
+
+    "statuses": [
+        {
+            "id": "1",
+            "name": "Wait",
+            "desc": "..."
+        },
+        {
+            "id": "2",
+            "name": "Confirmed",
+            "desc": "..."
+        },
+        {
+            "id": "3",
+            "name": "Packed",
+            "desc": "..."
+        },
+        {
+            "id": "4",
+            "name": "Delivering",
+            "desc": "..."
+        },
+        {
+            "id": "5",
+            "name": "Success",
+            "desc": "..."
+        },
+        {
+            "id": "6",
+            "name": "Fail",
+            "desc": "..."
+        }
+    ],
+
+    "orders": [
+        {
+            "id": "01",
+            "name": "Kai Jonson",
+            "phone": "0955374121",
+            "date": "2022-05-20 15:50:30",
+            "address": "255 Bambo",
+            "city": "LA",
+            "payment_method": "Cash",
+            "is_paid": "1",
+            "paid_at": "2022-05-20 15:55:30",
+            "is_delivered": "1",
+            "delivered_at": "2022-05-22 10:55:30",
+            "items_price": "627",
+            "shipping_price": "10",
+            "tax_price": "20",
+            "total_price": "657",
+            "cus_id": "2",
+            "emp_id": "1",
+            "status_id": "5"
+        },
+        {
+            "id": "02",
+            "name": "Asley Dona",
+            "phone": "0822782392",
+            "date": "2022-08-11 18:50:30",
+            "address": "255 Johnson",
+            "city": "LA",
+            "payment_method": "Cash",
+            "is_paid": "1",
+            "paid_at": "2022-08-13 14:55:30",
+            "is_delivered": "1",
+            "delivered_at": "2022-08-13 14:50:30",
+            "items_price": "878",
+            "shipping_price": "20",
+            "tax_price": "40",
+            "total_price": "1020",
+            "cus_id": "3",
+            "emp_id": "1",
+            "status_id": "1"
+        }
+    ],
+    "order_details": [
+        {
+            "order_id": "1",
+            "product_id": "1",
+            "quantity": "1",
+            "price": "128",
+            "subtotal": "128"
+        },
+        {
+            "order_id": "1",
+            "product_id": "2",
+            "quantity": "1",
+            "price": "499",
+            "subtotal": "499"
+        },
+
+        {
+            "order_id": "2",
+            "product_id": "3",
+            "quantity": "1",
+            "price": "128",
+            "subtotal": "128"
+        }
+    ],
+
+    "receives": [
+        {
+            "id": "01",
+            "date": "2022-05-20 15:50:30",
+            "total_qty": 20,
+            "total_price": 3455,
+            "emp_id": "1"
+        },
+        {
+            "id": "01",
+            "date": "2022-05-20 15:50:30",
+            "total_qty": 30,
+            "total_price": 1020,
+            "emp_id": "2"
+        }
+    ],
+    "receive_details": [
+        {
+            "receive_id": "1",
+            "product_id": "1",
+            "quantity": "10",
+            "price": "128",
+            "subtotal": "128"
+        },
+        {
+            "receive_id": "1",
+            "product_id": "2",
+            "quantity": "10",
+            "price": "499",
+            "subtotal": "499"
+        },
+
+        {
+            "receive_id": "2",
+            "product_id": "3",
+            "quantity": "30",
+            "price": "128",
+            "subtotal": "128"
+        }
+    ],
+
+    "wishlists": [
+        {
+            "product_id": "1",
+            "cus_id": "2"
+        },
+        {
+            "product_id": "2",
+            "cus_id": "2"
+        },
+        {
+            "product_id": "2",
+            "cus_id": "3"
+        }
+    ],
+
+    "coupons": [
+        {
+            "id": "1",
+            "name": "20% off",
+            "percent": "20%",
+            "apply": 500,
+            "is_active": 1
+        },
+        {
+            "id": "2",
+            "name": "50% off",
+            "percent": "50%",
+            "apply": 2000,
+            "is_active": 1
+        },
+        {
+            "id": "3",
+            "name": "10% off",
+            "percent": "10%",
+            "apply": 100,
+            "is_active": 1
+        },
+        {
+            "id": "4",
+            "name": "25% off",
+            "percent": "25%",
+            "apply": 700,
+            "is_active": 1
+        }
+    ],
+    "customer_coupons": [
+        {
+            "coupon_id": "1",
+            "cus_id": "2",
+            "is_used": 0
+        },
+        {
+            "coupon_id": "1",
+            "cus_id": "3",
+            "is_used": 0
+        },
+        {
+            "coupon_id": "2",
+            "cus_id": "2",
+            "is_used": 0
+        }
+    ],
+
+    "categories": [
+        {
+            "_id": "01",
+            "name": "Laptop",
+            "description": "..."
+        },
+        {
+            "_id": "02",
+            "name": "Smart Phone",
+            "description": "..."
+        },
+        {
+            "_id": "03",
+            "name": "Tablet",
+            "description": "..."
+        },
+        {
+            "_id": "04",
+            "name": "Smart Watch",
+            "description": "..."
+        }
+    ],
+    "brands": [
+        {
+            "_id": "01",
+            "CateID": "01",
+            "name": "Asus",
+            "description": "..."
+        },
+        {
+            "_id": "02",
+            "CateID": "01",
+            "name": "Accer",
+            "description": "..."
+        },
+        {
+            "_id": "03",
+            "CateID": "02",
+            "name": "iPhone",
+            "description": "..."
+        },
+        {
+            "_id": "04",
+            "CateID": "02",
+            "name": "SamSung",
+            "description": "..."
+        },
+        {
+            "_id": "05",
+            "CateID": "02",
+            "name": "Xiaomi",
+            "description": "..."
+        },
+        {
+            "_id": "06",
+            "CateID": "02",
+            "name": "OnePlus",
+            "description": "..."
+        }
+    ],
+    "products": [
+        {
+            "_id": "01",
+            "name": "SAMSUNG Galaxy S20 FE",
+            "slug": "SAMSUNG-Galaxy-S20-FE",
+            "category": "2",
+            "image": "/images/p1.jpg",
+            "price": 128,
+            "countInStock": 10,
+            "brand": "4",
+            "cpu": "Snapdragon 865",
+            "operatingSystem": "Android 12",
+            "ram": 6,
+            "memoryStorage": 128,
+            "screenSize": 6.4,
+            "weight": 240,
+            "releasedDate": "2022-10-02 23:59:59",
+            "rating": 3.5,
+            "numReviews": 5,
+            "description": "Pro-Grade Camera: The New Samsung Galaxy S20 Fe Mobile Phone Features High-Powered Pro Lenses For Beautiful Portraits, Stunning Landscapes And Crisp Close-Ups In Any Light With Its 3X Optical Zoom",
+            "is_active": "1"
+        },
+        {
+            "_id": "02",
+            "name": "OnePlus 9 Winter Mist",
+            "slug": "OnePlus-9-Winter-Mist",
+            "category": "2",
+            "image": "/images/p2.jpg",
+            "price": 499,
+            "countInStock": 20,
+            "brand": "6",
+            "cpu": "Snapdragon 865",
+            "operatingSystem": "Android 11",
+            "ram": 6,
+            "memoryStorage": 128,
+            "screenSize": 6.55,
+            "weight": 300,
+            "releasedDate": "2021-08-20 23:59:59",
+            "rating": 4.5,
+            "numReviews": 16,
+            "description": "Hasselblad Camera for Mobile- Take your best shot with the OnePlus 9 5G’s Triple Camera system co-developed by Hasselblad, featuring a 48MP main camera, 50MP Ultra-Wide camera, and 2MP monochrome lens",
+            "is_active": "1"
+        },
+        {
+            "_id": "03",
+            "name": "2022 Acer 15inch HD IPS Chromebook",
+            "slug": "2022-Acer-15inch-HD-IPS-Chromebook",
+            "category": "1",
+            "image": "/images/p3.jpg",
+            "price": 189,
+            "countInStock": 0,
+            "brand": "2",
+            "cpu": "Intel Core i9",
+            "operatingSystem": "Chrome OS",
+            "ram": 4,
+            "memoryStorage": 1024,
+            "screenSize": 15.6,
+            "weight": 800,
+            "releasedDate": "2022-06-21 23:59:59",
+            "rating": 3.5,
+            "numReviews": 25,
+            "description": "15inch HD IPS LED Display(1366x768), Intel Graphics Intel Dual-Core Celeron Processor Up to 2.55GHz, 4GB RAM, 32GB Storage 2x USB Type-A, 2x USB Type-C, 1x Headphone/microphone, Micro SD Card Reader Super-Fast WiFi Up to 1300 Mbps, Bluetooth 5.0 Chrome OS",
+            "is_active": "1"
+        },
+        {
+            "_id": "04",
+            "name": "ASUS ROG Strix Scar 15",
+            "slug": "ASUS-ROG-Strix-Scar-15",
+            "category": "1",
+            "image": "/images/p4.jpg",
+            "price": 1899,
+            "countInStock": 30,
+            "brand": "1",
+            "cpu": "Intel Core i9",
+            "operatingSystem": "Windows 11 Home",
+            "ram": 4,
+            "memoryStorage": 1024,
+            "screenSize": 15.6,
+            "weight": 800,
+            "releasedDate": "2022-05-12 23:59:59",
+            "rating": 4,
+            "numReviews": 10,
+            "description": "NVIDIA GeForce RTX 3070 Ti 8GB GDDR6 - ROG Boost up to 1460 MHz at 150W (125W plus 25W with Dynamic Boost)",
+            "is_active": "1"
+        }
+    ]
+}
