@@ -7,8 +7,9 @@ Electronic Store is a website that sells electronic items such as cellphones, la
 - Order Management and CMS
 - Revenue Statistics
 
-<img src="https://github.com/phamtrongsang11/Electronic-Store-App/assets/101312630/18a0cd5a-86b2-45dd-9c20-b43cc8d7b78b" width="100%" height="100%">
-<p style="text-align:center">Home Page</p>
+<img src="https://github.com/phamtrongsang11/TeamChat-React/assets/101312630/f0459aed-e72d-40c0-8a46-eae14daa7e72" width="100%" height="100%">
+
+<img src="https://github.com/phamtrongsang11/Electronic-Store-App/assets/101312630/abbbaf28-d882-48e6-a74a-fcf8b800d060" width="100%" height="100%">
 
 ## To run project
 1. run artisan update
