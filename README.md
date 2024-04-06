@@ -16,8 +16,8 @@ Electronic Store is a website that sells electronic items such as cellphones, la
 2. run atisan install
 3. create .env file, copy .env.example to .env and define url of database, JWT_SECRET
 4. if you already have had databse then delete all table in database
-4.1. run php artisan migrate
-4.2. run php artisan db:seed 
+5. run php artisan migrate
+6. run php artisan db:seed 
 
 ## paypal client test account
 1. username: sb-diqnp19982275@personal.example.com
